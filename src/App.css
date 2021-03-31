@@ -41,35 +41,3 @@
   }
 }
 
-.country-wrapper {
-  display: flex;
-  align-items: center;
-}
-
-.country-container {
-  width: 30em;
-  height: 2em;
-  display: flex;
-  color: #000;
-  border: 1px solid #686868;
-  align-items: center;
-  padding: 0 1em;
-  border-radius: 5px;
-  justify-content: space-between;
-}
-
-.country-wrapper:not(:last-of-type) {
-  margin-bottom: 10px;
-}
-
-.country {
-  font-size: 15px;
-}
-
-.country-id {
-  font-size: 15px;
-}
-
-.country-cases {
-  font-size: 15px;
-}
