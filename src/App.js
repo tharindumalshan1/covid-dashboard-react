@@ -1,6 +1,7 @@
 import "./App.css";
 
 import Table  from "./Components/country";
+import PieChart from "./Components/piechart"
 
 function App() {
   //
@@ -44,6 +45,7 @@ function App() {
       <div className="App">
         <h3>Covid Details By countries</h3>
         <Table/>
+        <PieChart/>
       </div>
   );
 }
